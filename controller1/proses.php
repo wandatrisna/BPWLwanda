@@ -13,4 +13,5 @@ $aksi = $_GET['aksi'];
     $db->edit($_POST['id'],$_POST['nama'],$_POST['alamat'],$_POST['usia']);
    header("location:../view1/tampil.php");
 }
+// Hai wanda, saya menambahkan komen disini :)
 ?>
